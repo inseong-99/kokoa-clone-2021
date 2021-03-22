@@ -1,45 +1,37 @@
 .nav {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #F9F9FA;
-    padding: 20px 50px;
-    box-sizing: border-box;
-    border-top: 1px solid rgba(109, 109, 109, 0.3);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(109, 109, 109, 0.3);
 }
 .nav__list {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav__link {
-    color:#2F363E;
-    position: relative;
+  color: #2f363e;
+  position: relative;
 }
 .nav__notification {
-    background-color: tomato;
-    width:30px;
-    height: 30px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color:white;
-    position: absolute;
-    left: 15px;
-    bottom:15px;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
 }
 .nav__notification-2 {
-    background-color: tomato;
-    color: tomato;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    left: 30px;
-    bottom: 30px;
-    font-size: 1px;
+  background-color: tomato;
+  color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  left: 30px;
+  bottom: 30px;
+  font-size: 1px;
 }
